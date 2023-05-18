@@ -2,19 +2,19 @@
     "title": "Choose your template",
     "blocks": [
         {
-            "id": 1,
+            "id": "Dark",
             "title": "Keep tasks in one place",
             "description": "Save time, avoid losing work and information, delegate, and track tasks to stay on schedule",
             "icon": "/services/service1.svg"
         },
         {
-            "id": 2,
+            "id": "Soft",
             "title": "Keep tasks in one place",
             "description": "Save time, avoid losing work and information, delegate, and track tasks to stay on schedule",
             "icon": "/services/service2.svg"
         },
         {
-            "id": 3,
+            "id": "Classy",
             "title": "Keep tasks in one place",
             "description": "Save time, avoid losing work and information, delegate, and track tasks to stay on schedule",
             "icon": "/services/service3.svg"
