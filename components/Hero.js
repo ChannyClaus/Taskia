@@ -15,7 +15,7 @@ const Hero = () => {
                         <form>
                             <div className="form-group">
                                 <input type="email" placeholder="Name@company.com" />
-                                <button type="submit" >Try it free</button>
+                                <button type="submit" >Build</button>
                             </div>
                         </form>
                     </div>
