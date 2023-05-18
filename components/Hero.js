@@ -14,7 +14,7 @@ const Hero = () => {
                         <p>{data.description}</p>
                         <form>
                             <div className="form-group">
-                                <input type="email" placeholder="Name@company.com" />
+                                <input type="query" />
                                 <button type="submit" >Build</button>
                             </div>
                         </form>
