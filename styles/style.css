@@ -224,8 +224,19 @@ header .btn-try button {
     padding: 5px;
 }
 
-.services .grid-services .card .select,
 .hero-section .content-hero .left-side .form-group button {
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    height: 60px;
+    text-align: center;
+    background-color: #59cea7;
+    width: 200px;
+    padding: 5px;
+}
+
+.services .grid-services .card .select {
     color: white;
     font-weight: normal;
     font-size: 14px;
@@ -424,6 +435,7 @@ footer .form-group {
 footer .form-group input {
     width: 320px;
     background: transparent;
+    height: 70px;
     outline: none;
     border: 1px solid #EBEBEB;
     border-radius: 40px;

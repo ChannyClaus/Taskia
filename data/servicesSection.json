@@ -24,6 +24,12 @@
             "title": "Keep tasks in one place",
             "description": "Save time, avoid losing work and information, delegate, and track tasks to stay on schedule",
             "icon": "/services/service3.svg"
+        },
+        {
+            "id": "Bold",
+            "title": "Keep tasks in one place",
+            "description": "Save time, avoid losing work and information, delegate, and track tasks to stay on schedule",
+            "icon": "/services/service3.svg"
         }
     ]
 }
