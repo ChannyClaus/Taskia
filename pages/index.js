@@ -3,8 +3,8 @@ import Head from 'next/head'
 // Sections
 import Hero from '../components/Hero';
 import Templates from '../components/Templates';
-import Management from '../components/Management';
-import TrustUs from '../components/TrustUs';
+import Photos from '../components/Photos';
+import Texts from '../components/Texts';
 import { useState } from 'react';
 
 
@@ -20,6 +20,8 @@ export default function Home({ hero }) {
       <Hero />
       <Templates template={template}
         setTemplate={setTemplate} />
+      <Photos></Photos>
+      <Texts></Texts>
     </>
   )
 }

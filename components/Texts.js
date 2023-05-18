@@ -1,31 +1,42 @@
 
 import CardService from './CardService';
-import data from "../data/servicesSection.json";
+import data from "../data/photos.json";
 
 import Image from 'next/image';
 
-const Templates = function ({ template, setTemplate }) {
+const Photos = function () {
     return (
         <section className="services" >
             <div className="header-services">
-                <h2>{data.title}</h2>
+                <h2>Choose your photos</h2>
+            </div>
+            <div className="header-services">
+                <h3>Choose from the options below:</h3>
             </div>
             <div className="container-services">
                 <div className="grid-services">
-                    {data.blocks.map(service =>
-                        <CardService
-                            id={service.id}
-                            icon={service.icon}
-                            title={service.title}
-                            description={service.description}
-                            template={template}
-                            setTemplate={setTemplate}
-                        />
-                    )}
+                    <div className="card">
+                        <Image src="/services/service1.svg" alt="Service-icon" width={200} height={200} />
+                        <div>
+                            <p>AI Menus</p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <Image src="/services/service1.svg" alt="Service-icon" width={200} height={200} />
+                        <div>
+                            <p>Our Stock Menu</p>
+                        </div>
+                    </div>
+                    <div className="card" style={{ 'background-color': '#59cea7' }}>
+                        <Image src="/services/service1.svg" alt="Service-icon" width={200} height={200} />
+                        <div>
+                            <p style={{ 'color': 'white' }}>Your Own Menu</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section >
     )
 }
 
-export default Templates;
+export default Photos;
