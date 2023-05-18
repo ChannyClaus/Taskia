@@ -78,7 +78,6 @@ header .btn-try button {
 .hero-section .content-hero .left-side h1 {
     font-weight: 700;
     font-size: 70px;
-    font-family: sans-serif;
     letter-spacing: -0.01em;
     line-height: 97px;
     text-align: left;
@@ -178,7 +177,7 @@ header .btn-try button {
     margin-top: 80px;
 }
 
-/* .services .grid-services .card {
+.services .grid-services .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,7 +245,7 @@ header .btn-try button {
 
 .services .grid-services .card:nth-of-type(3) {
     background: #FFE7AA;
-} */
+}
 
 /** End Services Css **/
 
