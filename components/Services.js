@@ -1,11 +1,10 @@
-import { useState } from 'react';
+
 import CardService from './CardService';
 import data from "../data/servicesSection.json";
 
 import Image from 'next/image';
 
-const Services = function () {
-    const [template, setTemplate] = useState('');
+const Templates = function ({ template, setTemplate }) {
     return (
         <section className="services" >
             <div className="header-services">
@@ -29,4 +28,4 @@ const Services = function () {
     )
 }
 
-export default Services;
+export default Templates;
