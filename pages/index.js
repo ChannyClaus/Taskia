@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 // Sections
 import Hero from '../components/Hero';
-import Templates from '../components/Services';
+import Templates from '../components/Templates';
 import Management from '../components/Management';
 import TrustUs from '../components/TrustUs';
 import { useState } from 'react';
