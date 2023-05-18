@@ -18,8 +18,8 @@ export default function Home({ hero }) {
 
       <Hero />
       <Services />
-      <Management />
-      <TrustUs />
+      {/* <Management />
+      <TrustUs /> */}
 
 
     </>
