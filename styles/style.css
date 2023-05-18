@@ -68,6 +68,7 @@ header .btn-try button {
 
 .hero-section .content-hero {
     display: flex;
+    column-gap: 20px;
     justify-content: space-between;
     align-items: center;
 }
@@ -138,24 +139,6 @@ header .btn-try button {
     cursor: pointer;
     margin-left: 35px;
     width: 150px;
-}
-
-.hero-section .content-hero .left-side .form-group button {
-    font-family: inherit;
-    padding: 25px 40px;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    background: #525FFB;
-    font-weight: 500;
-    font-size: 17px;
-    letter-spacing: 0.05em;
-    line-height: 27px;
-    text-align: left;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-left: 35px;
 }
 
 .hero-section .content-hero .right-side {
@@ -241,7 +224,8 @@ header .btn-try button {
     padding: 5px;
 }
 
-.services .grid-services .card .select {
+.services .grid-services .card .select,
+.hero-section .content-hero .left-side .form-group button {
     color: white;
     font-weight: normal;
     font-size: 14px;

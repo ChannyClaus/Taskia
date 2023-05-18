@@ -12,11 +12,6 @@ const Header = () => {
                     </a>
                 </Link>
             </div>
-            <div className="btn-try">
-                <button>
-                    Try free
-                </button>
-            </div>
         </header>
     )
 };
