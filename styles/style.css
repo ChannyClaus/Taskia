@@ -205,7 +205,9 @@ header .btn-try button {
     justify-content: center;
     text-align: center;
     padding: 30px;
-    border-radius: 11px;
+    border-radius: 5 px;
+    border-style: solid;
+    border-color: palegreen;
 }
 
 .services .grid-services .card .info {
@@ -215,53 +217,29 @@ header .btn-try button {
     top: -20px;
 }
 
-.services .grid-services .card .info a,
-.services .grid-services .card .info p {
+.services .grid-services .card .preview {
     font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 14px;
+    line-height: 24px;
     text-align: center;
-    background-color: #251951;
+    border-style: solid;
+    border-color: black;
+    margin: auto
 }
+
+.services .grid-services .card .select {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
 
 .services .grid-services .card .info h3 {
     font-weight: normal;
     font-size: 30px;
     line-height: 40px;
     text-align: center;
-}
-
-/* 
-.services .grid-services .card .info p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    margin-top: 25px;
-} */
-
-.services .grid-services .card:nth-of-type(1) .info h3 {
-    color: #fff;
-}
-
-.services .grid-services .card:nth-of-type(1) .info p {
-    color: #fff;
-}
-
-.services .grid-services .card:nth-of-type(2) .info h3 {
-    color: #1E1C24;
-}
-
-.services .grid-services .card:nth-of-type(2) .info p {
-    color: #1E1C24;
-}
-
-.services .grid-services .card:nth-of-type(3) .info h3 {
-    color: #1E1C24;
-}
-
-.services .grid-services .card:nth-of-type(3) .info p {
-    color: #1E1C24;
 }
 
 /** End Services Css **/
