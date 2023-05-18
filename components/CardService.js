@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const CardService = ({ id, icon, title, description }) => {
+const CardService = ({ id, icon, title, description, template, setTemplate }) => {
     return (
         <div className="card" id={id}>
             <h3>{id}</h3>
@@ -10,8 +10,8 @@ const CardService = ({ id, icon, title, description }) => {
                     Preview
                 </a>
             </div>
-            <div className='select'>
-                <p>Select</p>
+            <div className='select' onClick={() => { setTemplate(id) }}>
+                <p>{template === id ? "Selected!" : "Select"}</p>
             </div>
         </div>
     )

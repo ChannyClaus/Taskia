@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import CardService from './CardService';
 import data from "../data/servicesSection.json";
+
 import Image from 'next/image';
 
-
-const Services = () => {
+const Services = function () {
+    const [template, setTemplate] = useState('');
     return (
         <section className="services" >
             <div className="header-services">
@@ -17,6 +19,8 @@ const Services = () => {
                             icon={service.icon}
                             title={service.title}
                             description={service.description}
+                            template={template}
+                            setTemplate={setTemplate}
                         />
                     )}
                 </div>
